@@ -164,7 +164,7 @@ while len(remaining_questions) > 0:
         print("\033[92mYou got the right answer, yay!")
         right_answers = right_answers + 1
     else:
-        print("Boo, you suck! Try again. It was:\033[93m " + right_answer["english"])
+        print("Wrong answer! Try again. It was:\033[93m " + right_answer["english"])
         wrong_answers = wrong_answers + 1
     print("---")
 
